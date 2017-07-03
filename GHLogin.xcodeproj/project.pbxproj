@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D77B71A1F0A2BD00024DCC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B7191F0A2BD00024DCC7 /* main.m */; };
+		3D77B71D1F0A2BD00024DCC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B71C1F0A2BD00024DCC7 /* AppDelegate.m */; };
+		3D77B7201F0A2BD00024DCC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B71F1F0A2BD00024DCC7 /* ViewController.m */; };
+		3D77B7231F0A2BD00024DCC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D77B7211F0A2BD00024DCC7 /* Main.storyboard */; };
+		3D77B7251F0A2BD00024DCC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D77B7241F0A2BD00024DCC7 /* Assets.xcassets */; };
+		3D77B7281F0A2BD00024DCC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D77B7261F0A2BD00024DCC7 /* LaunchScreen.storyboard */; };
+		3D77B7331F0A2BD00024DCC7 /* GHLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B7321F0A2BD00024DCC7 /* GHLoginTests.m */; };
+		3D77B73E1F0A2BD00024DCC7 /* GHLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B73D1F0A2BD00024DCC7 /* GHLoginUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D77B72F1F0A2BD00024DCC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D77B70D1F0A2BD00024DCC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D77B7141F0A2BD00024DCC7;
+			remoteInfo = GHLogin;
+		};
+		3D77B73A1F0A2BD00024DCC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D77B70D1F0A2BD00024DCC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D77B7141F0A2BD00024DCC7;
+			remoteInfo = GHLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D77B7151F0A2BD00024DCC7 /* GHLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D77B7191F0A2BD00024DCC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D77B71B1F0A2BD00024DCC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D77B71C1F0A2BD00024DCC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D77B71E1F0A2BD00024DCC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D77B71F1F0A2BD00024DCC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D77B7221F0A2BD00024DCC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D77B7241F0A2BD00024DCC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D77B7271F0A2BD00024DCC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D77B7291F0A2BD00024DCC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D77B72E1F0A2BD00024DCC7 /* GHLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D77B7321F0A2BD00024DCC7 /* GHLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHLoginTests.m; sourceTree = "<group>"; };
+		3D77B7341F0A2BD00024DCC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D77B7391F0A2BD00024DCC7 /* GHLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D77B73D1F0A2BD00024DCC7 /* GHLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHLoginUITests.m; sourceTree = "<group>"; };
+		3D77B73F1F0A2BD00024DCC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D77B7121F0A2BD00024DCC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D77B72B1F0A2BD00024DCC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D77B7361F0A2BD00024DCC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D77B70C1F0A2BD00024DCC7 = {
+			isa = PBXGroup;
+			children = (
+				3D77B7171F0A2BD00024DCC7 /* GHLogin */,
+				3D77B7311F0A2BD00024DCC7 /* GHLoginTests */,
+				3D77B73C1F0A2BD00024DCC7 /* GHLoginUITests */,
+				3D77B7161F0A2BD00024DCC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D77B7161F0A2BD00024DCC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D77B7151F0A2BD00024DCC7 /* GHLogin.app */,
+				3D77B72E1F0A2BD00024DCC7 /* GHLoginTests.xctest */,
+				3D77B7391F0A2BD00024DCC7 /* GHLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D77B7171F0A2BD00024DCC7 /* GHLogin */ = {
+			isa = PBXGroup;
+			children = (
+				3D77B71B1F0A2BD00024DCC7 /* AppDelegate.h */,
+				3D77B71C1F0A2BD00024DCC7 /* AppDelegate.m */,
+				3D77B71E1F0A2BD00024DCC7 /* ViewController.h */,
+				3D77B71F1F0A2BD00024DCC7 /* ViewController.m */,
+				3D77B7211F0A2BD00024DCC7 /* Main.storyboard */,
+				3D77B7241F0A2BD00024DCC7 /* Assets.xcassets */,
+				3D77B7261F0A2BD00024DCC7 /* LaunchScreen.storyboard */,
+				3D77B7291F0A2BD00024DCC7 /* Info.plist */,
+				3D77B7181F0A2BD00024DCC7 /* Supporting Files */,
+			);
+			path = GHLogin;
+			sourceTree = "<group>";
+		};
+		3D77B7181F0A2BD00024DCC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D77B7191F0A2BD00024DCC7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D77B7311F0A2BD00024DCC7 /* GHLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D77B7321F0A2BD00024DCC7 /* GHLoginTests.m */,
+				3D77B7341F0A2BD00024DCC7 /* Info.plist */,
+			);
+			path = GHLoginTests;
+			sourceTree = "<group>";
+		};
+		3D77B73C1F0A2BD00024DCC7 /* GHLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D77B73D1F0A2BD00024DCC7 /* GHLoginUITests.m */,
+				3D77B73F1F0A2BD00024DCC7 /* Info.plist */,
+			);
+			path = GHLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D77B7141F0A2BD00024DCC7 /* GHLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D77B7421F0A2BD00024DCC7 /* Build configuration list for PBXNativeTarget "GHLogin" */;
+			buildPhases = (
+				3D77B7111F0A2BD00024DCC7 /* Sources */,
+				3D77B7121F0A2BD00024DCC7 /* Frameworks */,
+				3D77B7131F0A2BD00024DCC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHLogin;
+			productName = GHLogin;
+			productReference = 3D77B7151F0A2BD00024DCC7 /* GHLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D77B72D1F0A2BD00024DCC7 /* GHLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D77B7451F0A2BD00024DCC7 /* Build configuration list for PBXNativeTarget "GHLoginTests" */;
+			buildPhases = (
+				3D77B72A1F0A2BD00024DCC7 /* Sources */,
+				3D77B72B1F0A2BD00024DCC7 /* Frameworks */,
+				3D77B72C1F0A2BD00024DCC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D77B7301F0A2BD00024DCC7 /* PBXTargetDependency */,
+			);
+			name = GHLoginTests;
+			productName = GHLoginTests;
+			productReference = 3D77B72E1F0A2BD00024DCC7 /* GHLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D77B7381F0A2BD00024DCC7 /* GHLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D77B7481F0A2BD00024DCC7 /* Build configuration list for PBXNativeTarget "GHLoginUITests" */;
+			buildPhases = (
+				3D77B7351F0A2BD00024DCC7 /* Sources */,
+				3D77B7361F0A2BD00024DCC7 /* Frameworks */,
+				3D77B7371F0A2BD00024DCC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D77B73B1F0A2BD00024DCC7 /* PBXTargetDependency */,
+			);
+			name = GHLoginUITests;
+			productName = GHLoginUITests;
+			productReference = 3D77B7391F0A2BD00024DCC7 /* GHLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D77B70D1F0A2BD00024DCC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "eiboran-imac5k";
+				TargetAttributes = {
+					3D77B7141F0A2BD00024DCC7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					3D77B72D1F0A2BD00024DCC7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D77B7141F0A2BD00024DCC7;
+					};
+					3D77B7381F0A2BD00024DCC7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D77B7141F0A2BD00024DCC7;
+					};
+				};
+			};
+			buildConfigurationList = 3D77B7101F0A2BD00024DCC7 /* Build configuration list for PBXProject "GHLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D77B70C1F0A2BD00024DCC7;
+			productRefGroup = 3D77B7161F0A2BD00024DCC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D77B7141F0A2BD00024DCC7 /* GHLogin */,
+				3D77B72D1F0A2BD00024DCC7 /* GHLoginTests */,
+				3D77B7381F0A2BD00024DCC7 /* GHLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D77B7131F0A2BD00024DCC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D77B7281F0A2BD00024DCC7 /* LaunchScreen.storyboard in Resources */,
+				3D77B7251F0A2BD00024DCC7 /* Assets.xcassets in Resources */,
+				3D77B7231F0A2BD00024DCC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D77B72C1F0A2BD00024DCC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D77B7371F0A2BD00024DCC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D77B7111F0A2BD00024DCC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D77B7201F0A2BD00024DCC7 /* ViewController.m in Sources */,
+				3D77B71D1F0A2BD00024DCC7 /* AppDelegate.m in Sources */,
+				3D77B71A1F0A2BD00024DCC7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D77B72A1F0A2BD00024DCC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D77B7331F0A2BD00024DCC7 /* GHLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D77B7351F0A2BD00024DCC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D77B73E1F0A2BD00024DCC7 /* GHLoginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D77B7301F0A2BD00024DCC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D77B7141F0A2BD00024DCC7 /* GHLogin */;
+			targetProxy = 3D77B72F1F0A2BD00024DCC7 /* PBXContainerItemProxy */;
+		};
+		3D77B73B1F0A2BD00024DCC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D77B7141F0A2BD00024DCC7 /* GHLogin */;
+			targetProxy = 3D77B73A1F0A2BD00024DCC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D77B7211F0A2BD00024DCC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D77B7221F0A2BD00024DCC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D77B7261F0A2BD00024DCC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D77B7271F0A2BD00024DCC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D77B7401F0A2BD00024DCC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D77B7411F0A2BD00024DCC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D77B7431F0A2BD00024DCC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GHLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eiboran.com.GHLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D77B7441F0A2BD00024DCC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GHLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eiboran.com.GHLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D77B7461F0A2BD00024DCC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GHLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eiboran.com.GHLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHLogin.app/GHLogin";
+			};
+			name = Debug;
+		};
+		3D77B7471F0A2BD00024DCC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GHLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eiboran.com.GHLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHLogin.app/GHLogin";
+			};
+			name = Release;
+		};
+		3D77B7491F0A2BD00024DCC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GHLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eiboran.com.GHLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GHLogin;
+			};
+			name = Debug;
+		};
+		3D77B74A1F0A2BD00024DCC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GHLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eiboran.com.GHLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GHLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D77B7101F0A2BD00024DCC7 /* Build configuration list for PBXProject "GHLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D77B7401F0A2BD00024DCC7 /* Debug */,
+				3D77B7411F0A2BD00024DCC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D77B7421F0A2BD00024DCC7 /* Build configuration list for PBXNativeTarget "GHLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D77B7431F0A2BD00024DCC7 /* Debug */,
+				3D77B7441F0A2BD00024DCC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D77B7451F0A2BD00024DCC7 /* Build configuration list for PBXNativeTarget "GHLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D77B7461F0A2BD00024DCC7 /* Debug */,
+				3D77B7471F0A2BD00024DCC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D77B7481F0A2BD00024DCC7 /* Build configuration list for PBXNativeTarget "GHLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D77B7491F0A2BD00024DCC7 /* Debug */,
+				3D77B74A1F0A2BD00024DCC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D77B70D1F0A2BD00024DCC7 /* Project object */;
+}
