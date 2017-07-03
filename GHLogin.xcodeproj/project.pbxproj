@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CE6391C7A8C11E42C25FED7 /* libPods-GHLoginUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 038D5B2C46A543ACA6C82CBE /* libPods-GHLoginUITests.a */; };
+		173564B461CB50210B7319A1 /* libPods-GHLoginTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E20178117C48F070B51FC42A /* libPods-GHLoginTests.a */; };
+		29D05F02CC4951E479C4E589 /* libPods-GHLogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A6F1C4D17E666FF765A985 /* libPods-GHLogin.a */; };
 		3D77B71A1F0A2BD00024DCC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B7191F0A2BD00024DCC7 /* main.m */; };
 		3D77B71D1F0A2BD00024DCC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B71C1F0A2BD00024DCC7 /* AppDelegate.m */; };
 		3D77B7231F0A2BD00024DCC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D77B7211F0A2BD00024DCC7 /* Main.storyboard */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		038D5B2C46A543ACA6C82CBE /* libPods-GHLoginUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GHLoginUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFAC292A6C9E8ADAA5976E4 /* Pods-GHLoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHLoginUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHLoginUITests/Pods-GHLoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CEE32483A6206728E8290F9 /* Pods-GHLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-GHLogin/Pods-GHLogin.release.xcconfig"; sourceTree = "<group>"; };
 		3D77B7151F0A2BD00024DCC7 /* GHLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D77B7191F0A2BD00024DCC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D77B71B1F0A2BD00024DCC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		3D77B73F1F0A2BD00024DCC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D77B74E1F0A2C2B0024DCC7 /* GHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHLoginViewController.h; sourceTree = "<group>"; };
 		3D77B74F1F0A2C2B0024DCC7 /* GHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHLoginViewController.m; sourceTree = "<group>"; };
+		43DE57AB91AED95F0DFA3864 /* Pods-GHLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHLoginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHLoginTests/Pods-GHLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73D1C888A9A9E436407132ED /* Pods-GHLoginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHLoginUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GHLoginUITests/Pods-GHLoginUITests.release.xcconfig"; sourceTree = "<group>"; };
+		83260C036634B028B0B1B400 /* Pods-GHLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHLogin/Pods-GHLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		9F72034FCB2297246FBC8896 /* Pods-GHLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHLoginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GHLoginTests/Pods-GHLoginTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8A6F1C4D17E666FF765A985 /* libPods-GHLogin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GHLogin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20178117C48F070B51FC42A /* libPods-GHLoginTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GHLoginTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29D05F02CC4951E479C4E589 /* libPods-GHLogin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				173564B461CB50210B7319A1 /* libPods-GHLoginTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CE6391C7A8C11E42C25FED7 /* libPods-GHLoginUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				3D77B7311F0A2BD00024DCC7 /* GHLoginTests */,
 				3D77B73C1F0A2BD00024DCC7 /* GHLoginUITests */,
 				3D77B7161F0A2BD00024DCC7 /* Products */,
+				7DA7FE4566AF0F1514C2140D /* Pods */,
+				D98188CD68AB3EB65EFF19FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,6 +181,29 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		7DA7FE4566AF0F1514C2140D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83260C036634B028B0B1B400 /* Pods-GHLogin.debug.xcconfig */,
+				3CEE32483A6206728E8290F9 /* Pods-GHLogin.release.xcconfig */,
+				43DE57AB91AED95F0DFA3864 /* Pods-GHLoginTests.debug.xcconfig */,
+				9F72034FCB2297246FBC8896 /* Pods-GHLoginTests.release.xcconfig */,
+				2AFAC292A6C9E8ADAA5976E4 /* Pods-GHLoginUITests.debug.xcconfig */,
+				73D1C888A9A9E436407132ED /* Pods-GHLoginUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D98188CD68AB3EB65EFF19FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8A6F1C4D17E666FF765A985 /* libPods-GHLogin.a */,
+				E20178117C48F070B51FC42A /* libPods-GHLoginTests.a */,
+				038D5B2C46A543ACA6C82CBE /* libPods-GHLoginUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D77B7421F0A2BD00024DCC7 /* Build configuration list for PBXNativeTarget "GHLogin" */;
 			buildPhases = (
+				50C8322712DFF3729D00D43D /* [CP] Check Pods Manifest.lock */,
 				3D77B7111F0A2BD00024DCC7 /* Sources */,
 				3D77B7121F0A2BD00024DCC7 /* Frameworks */,
 				3D77B7131F0A2BD00024DCC7 /* Resources */,
+				29E2C22ADACE869F984B721D /* [CP] Embed Pods Frameworks */,
+				A7454C339F93C8D61FBD10C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D77B7451F0A2BD00024DCC7 /* Build configuration list for PBXNativeTarget "GHLoginTests" */;
 			buildPhases = (
+				D48C598DBC102105DD450FCC /* [CP] Check Pods Manifest.lock */,
 				3D77B72A1F0A2BD00024DCC7 /* Sources */,
 				3D77B72B1F0A2BD00024DCC7 /* Frameworks */,
 				3D77B72C1F0A2BD00024DCC7 /* Resources */,
+				FC507CD4FA4F150B72E75C83 /* [CP] Embed Pods Frameworks */,
+				6EEAA6A04D2E5D70BA9CD19F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D77B7481F0A2BD00024DCC7 /* Build configuration list for PBXNativeTarget "GHLoginUITests" */;
 			buildPhases = (
+				DB19C675B87A99696C625A20 /* [CP] Check Pods Manifest.lock */,
 				3D77B7351F0A2BD00024DCC7 /* Sources */,
 				3D77B7361F0A2BD00024DCC7 /* Frameworks */,
 				3D77B7371F0A2BD00024DCC7 /* Resources */,
+				4DD3AB83A343662C8B9527C4 /* [CP] Embed Pods Frameworks */,
+				B87D8C2826FF9359E09E267B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,6 +342,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29E2C22ADACE869F984B721D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GHLogin/Pods-GHLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DD3AB83A343662C8B9527C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GHLoginUITests/Pods-GHLoginUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50C8322712DFF3729D00D43D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6EEAA6A04D2E5D70BA9CD19F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GHLoginTests/Pods-GHLoginTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7454C339F93C8D61FBD10C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GHLogin/Pods-GHLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B87D8C2826FF9359E09E267B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GHLoginUITests/Pods-GHLoginUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D48C598DBC102105DD450FCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB19C675B87A99696C625A20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC507CD4FA4F150B72E75C83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GHLoginTests/Pods-GHLoginTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D77B7111F0A2BD00024DCC7 /* Sources */ = {
@@ -450,6 +637,7 @@
 		};
 		3D77B7431F0A2BD00024DCC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83260C036634B028B0B1B400 /* Pods-GHLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7662535V8E;
@@ -462,6 +650,7 @@
 		};
 		3D77B7441F0A2BD00024DCC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CEE32483A6206728E8290F9 /* Pods-GHLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7662535V8E;
@@ -474,6 +663,7 @@
 		};
 		3D77B7461F0A2BD00024DCC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43DE57AB91AED95F0DFA3864 /* Pods-GHLoginTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GHLoginTests/Info.plist;
@@ -486,6 +676,7 @@
 		};
 		3D77B7471F0A2BD00024DCC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F72034FCB2297246FBC8896 /* Pods-GHLoginTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GHLoginTests/Info.plist;
@@ -498,6 +689,7 @@
 		};
 		3D77B7491F0A2BD00024DCC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AFAC292A6C9E8ADAA5976E4 /* Pods-GHLoginUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GHLoginUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -509,6 +701,7 @@
 		};
 		3D77B74A1F0A2BD00024DCC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73D1C888A9A9E436407132ED /* Pods-GHLoginUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GHLoginUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
