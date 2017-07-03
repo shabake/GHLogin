@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		3D77B71A1F0A2BD00024DCC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B7191F0A2BD00024DCC7 /* main.m */; };
 		3D77B71D1F0A2BD00024DCC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B71C1F0A2BD00024DCC7 /* AppDelegate.m */; };
-		3D77B7201F0A2BD00024DCC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B71F1F0A2BD00024DCC7 /* ViewController.m */; };
 		3D77B7231F0A2BD00024DCC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D77B7211F0A2BD00024DCC7 /* Main.storyboard */; };
 		3D77B7251F0A2BD00024DCC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D77B7241F0A2BD00024DCC7 /* Assets.xcassets */; };
 		3D77B7281F0A2BD00024DCC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D77B7261F0A2BD00024DCC7 /* LaunchScreen.storyboard */; };
 		3D77B7331F0A2BD00024DCC7 /* GHLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B7321F0A2BD00024DCC7 /* GHLoginTests.m */; };
 		3D77B73E1F0A2BD00024DCC7 /* GHLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B73D1F0A2BD00024DCC7 /* GHLoginUITests.m */; };
+		3D77B7501F0A2C2B0024DCC7 /* GHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B74F1F0A2C2B0024DCC7 /* GHLoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		3D77B7191F0A2BD00024DCC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D77B71B1F0A2BD00024DCC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D77B71C1F0A2BD00024DCC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3D77B71E1F0A2BD00024DCC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3D77B71F1F0A2BD00024DCC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3D77B7221F0A2BD00024DCC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D77B7241F0A2BD00024DCC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D77B7271F0A2BD00024DCC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		3D77B7391F0A2BD00024DCC7 /* GHLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D77B73D1F0A2BD00024DCC7 /* GHLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHLoginUITests.m; sourceTree = "<group>"; };
 		3D77B73F1F0A2BD00024DCC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D77B74E1F0A2C2B0024DCC7 /* GHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHLoginViewController.h; sourceTree = "<group>"; };
+		3D77B74F1F0A2C2B0024DCC7 /* GHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHLoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +101,9 @@
 		3D77B7171F0A2BD00024DCC7 /* GHLogin */ = {
 			isa = PBXGroup;
 			children = (
+				3D77B74B1F0A2C140024DCC7 /* Login */,
 				3D77B71B1F0A2BD00024DCC7 /* AppDelegate.h */,
 				3D77B71C1F0A2BD00024DCC7 /* AppDelegate.m */,
-				3D77B71E1F0A2BD00024DCC7 /* ViewController.h */,
-				3D77B71F1F0A2BD00024DCC7 /* ViewController.m */,
 				3D77B7211F0A2BD00024DCC7 /* Main.storyboard */,
 				3D77B7241F0A2BD00024DCC7 /* Assets.xcassets */,
 				3D77B7261F0A2BD00024DCC7 /* LaunchScreen.storyboard */,
@@ -138,6 +137,31 @@
 				3D77B73F1F0A2BD00024DCC7 /* Info.plist */,
 			);
 			path = GHLoginUITests;
+			sourceTree = "<group>";
+		};
+		3D77B74B1F0A2C140024DCC7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3D77B74C1F0A2C140024DCC7 /* Controller */,
+				3D77B74D1F0A2C140024DCC7 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3D77B74C1F0A2C140024DCC7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D77B74E1F0A2C2B0024DCC7 /* GHLoginViewController.h */,
+				3D77B74F1F0A2C2B0024DCC7 /* GHLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3D77B74D1F0A2C140024DCC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,11 +226,13 @@
 		3D77B70D1F0A2BD00024DCC7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GH;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "eiboran-imac5k";
 				TargetAttributes = {
 					3D77B7141F0A2BD00024DCC7 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7662535V8E;
 						ProvisioningStyle = Automatic;
 					};
 					3D77B72D1F0A2BD00024DCC7 = {
@@ -273,7 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D77B7201F0A2BD00024DCC7 /* ViewController.m in Sources */,
+				3D77B7501F0A2C2B0024DCC7 /* GHLoginViewController.m in Sources */,
 				3D77B71D1F0A2BD00024DCC7 /* AppDelegate.m in Sources */,
 				3D77B71A1F0A2BD00024DCC7 /* main.m in Sources */,
 			);
@@ -426,6 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7662535V8E;
 				INFOPLIST_FILE = GHLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eiboran.com.GHLogin;
@@ -437,6 +464,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7662535V8E;
 				INFOPLIST_FILE = GHLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eiboran.com.GHLogin;

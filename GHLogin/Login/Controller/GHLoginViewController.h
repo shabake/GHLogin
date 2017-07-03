@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GHLoginViewController.h
 //  GHLogin
 //
 //  Created by eiboran-imac5k on 2017/7/3.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface GHLoginViewController : UIViewController
 
 @end
-

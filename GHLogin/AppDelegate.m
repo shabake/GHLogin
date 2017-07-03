@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "GHLoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // Override point for customization after application launch
+    
+    UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [window makeKeyAndVisible];
+    self.window = window;
+    
+
+    GHLoginViewController *loginVc = [[GHLoginViewController alloc] init];
+    self.window.rootViewController = loginVc;
     return YES;
 }
 
