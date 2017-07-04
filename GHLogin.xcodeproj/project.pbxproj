@@ -18,6 +18,11 @@
 		3D77B7331F0A2BD00024DCC7 /* GHLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B7321F0A2BD00024DCC7 /* GHLoginTests.m */; };
 		3D77B73E1F0A2BD00024DCC7 /* GHLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B73D1F0A2BD00024DCC7 /* GHLoginUITests.m */; };
 		3D77B7501F0A2C2B0024DCC7 /* GHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B74F1F0A2C2B0024DCC7 /* GHLoginViewController.m */; };
+		3D77B7531F0A2EED0024DCC7 /* GHLoginHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B7521F0A2EED0024DCC7 /* GHLoginHeaderView.m */; };
+		3D77B7561F0A2F480024DCC7 /* GHLoginCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B7551F0A2F480024DCC7 /* GHLoginCell.m */; };
+		3D77B75D1F0A304F0024DCC7 /* GHDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B75A1F0A304F0024DCC7 /* GHDataModel.m */; };
+		3D77B75E1F0A304F0024DCC7 /* GHDataModelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B75C1F0A304F0024DCC7 /* GHDataModelHelper.m */; };
+		3D77B7621F0A31060024DCC7 /* DDSMSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B7611F0A31060024DCC7 /* DDSMSButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +62,16 @@
 		3D77B73F1F0A2BD00024DCC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D77B74E1F0A2C2B0024DCC7 /* GHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHLoginViewController.h; sourceTree = "<group>"; };
 		3D77B74F1F0A2C2B0024DCC7 /* GHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHLoginViewController.m; sourceTree = "<group>"; };
+		3D77B7511F0A2EED0024DCC7 /* GHLoginHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHLoginHeaderView.h; sourceTree = "<group>"; };
+		3D77B7521F0A2EED0024DCC7 /* GHLoginHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHLoginHeaderView.m; sourceTree = "<group>"; };
+		3D77B7541F0A2F480024DCC7 /* GHLoginCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHLoginCell.h; sourceTree = "<group>"; };
+		3D77B7551F0A2F480024DCC7 /* GHLoginCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHLoginCell.m; sourceTree = "<group>"; };
+		3D77B7591F0A304F0024DCC7 /* GHDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHDataModel.h; sourceTree = "<group>"; };
+		3D77B75A1F0A304F0024DCC7 /* GHDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHDataModel.m; sourceTree = "<group>"; };
+		3D77B75B1F0A304F0024DCC7 /* GHDataModelHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHDataModelHelper.h; sourceTree = "<group>"; };
+		3D77B75C1F0A304F0024DCC7 /* GHDataModelHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHDataModelHelper.m; sourceTree = "<group>"; };
+		3D77B7601F0A31060024DCC7 /* DDSMSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSMSButton.h; sourceTree = "<group>"; };
+		3D77B7611F0A31060024DCC7 /* DDSMSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSMSButton.m; sourceTree = "<group>"; };
 		43DE57AB91AED95F0DFA3864 /* Pods-GHLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHLoginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHLoginTests/Pods-GHLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
 		73D1C888A9A9E436407132ED /* Pods-GHLoginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHLoginUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GHLoginUITests/Pods-GHLoginUITests.release.xcconfig"; sourceTree = "<group>"; };
 		83260C036634B028B0B1B400 /* Pods-GHLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GHLogin/Pods-GHLogin.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +133,7 @@
 		3D77B7171F0A2BD00024DCC7 /* GHLogin */ = {
 			isa = PBXGroup;
 			children = (
+				3D77B7571F0A30380024DCC7 /* Common */,
 				3D77B74B1F0A2C140024DCC7 /* Login */,
 				3D77B71B1F0A2BD00024DCC7 /* AppDelegate.h */,
 				3D77B71C1F0A2BD00024DCC7 /* AppDelegate.m */,
@@ -177,6 +193,39 @@
 		3D77B74D1F0A2C140024DCC7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3D77B7511F0A2EED0024DCC7 /* GHLoginHeaderView.h */,
+				3D77B7521F0A2EED0024DCC7 /* GHLoginHeaderView.m */,
+				3D77B7541F0A2F480024DCC7 /* GHLoginCell.h */,
+				3D77B7551F0A2F480024DCC7 /* GHLoginCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D77B7571F0A30380024DCC7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3D77B75F1F0A31030024DCC7 /* View */,
+				3D77B7581F0A30380024DCC7 /* Modle */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3D77B7581F0A30380024DCC7 /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				3D77B7591F0A304F0024DCC7 /* GHDataModel.h */,
+				3D77B75A1F0A304F0024DCC7 /* GHDataModel.m */,
+				3D77B75B1F0A304F0024DCC7 /* GHDataModelHelper.h */,
+				3D77B75C1F0A304F0024DCC7 /* GHDataModelHelper.m */,
+			);
+			path = Modle;
+			sourceTree = "<group>";
+		};
+		3D77B75F1F0A31030024DCC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D77B7601F0A31060024DCC7 /* DDSMSButton.h */,
+				3D77B7611F0A31060024DCC7 /* DDSMSButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -486,9 +535,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D77B75E1F0A304F0024DCC7 /* GHDataModelHelper.m in Sources */,
+				3D77B75D1F0A304F0024DCC7 /* GHDataModel.m in Sources */,
+				3D77B7561F0A2F480024DCC7 /* GHLoginCell.m in Sources */,
 				3D77B7501F0A2C2B0024DCC7 /* GHLoginViewController.m in Sources */,
 				3D77B71D1F0A2BD00024DCC7 /* AppDelegate.m in Sources */,
+				3D77B7531F0A2EED0024DCC7 /* GHLoginHeaderView.m in Sources */,
 				3D77B71A1F0A2BD00024DCC7 /* main.m in Sources */,
+				3D77B7621F0A31060024DCC7 /* DDSMSButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -730,6 +784,7 @@
 				3D77B7441F0A2BD00024DCC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D77B7451F0A2BD00024DCC7 /* Build configuration list for PBXNativeTarget "GHLoginTests" */ = {
 			isa = XCConfigurationList;
@@ -738,6 +793,7 @@
 				3D77B7471F0A2BD00024DCC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D77B7481F0A2BD00024DCC7 /* Build configuration list for PBXNativeTarget "GHLoginUITests" */ = {
 			isa = XCConfigurationList;
@@ -746,6 +802,7 @@
 				3D77B74A1F0A2BD00024DCC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
